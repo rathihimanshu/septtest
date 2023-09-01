@@ -7,10 +7,10 @@ terraform {
   cloud {
     organization = "septterracloud"
     workspaces {
-      name = "git1newworkspace"
+      name = "gitworkspace"
     }
   }
 }
 resource "aws_iam_user" "gitrepouser" {
-  name = "gitrepouse"
+  name = "gitnewrepouse"
 }
