@@ -12,5 +12,5 @@ terraform {
   }
 }
 resource "aws_iam_user" "gitrepouser" {
-  name = "girrepouse"
+  name = "gitrepouse"
 }
