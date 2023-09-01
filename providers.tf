@@ -7,7 +7,7 @@ terraform {
   cloud {
     organization = "septterracloud"
     workspaces {
-      name = "gitworkspace"
+      name = "gitnewworkspace"
     }
   }
 }
